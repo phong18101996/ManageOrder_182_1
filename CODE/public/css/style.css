@@ -1,0 +1,97 @@
+.navbar-inverse {
+    background-color:#2c3e50 !important;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    color: #2c3e50 !important;
+    background-color: #ecf0f1 !important;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #ecf0f1 !important;
+}
+.data {
+    background-color: #ffffff !important;
+}
+.navbar-header span {
+    color:#9d9d9d !important;
+}
+navbar-inverse .fix-border {
+
+    -webkit-border-top-left-radius:0px !important;
+    -webkit-border-bottom-left-radius:0px !important;
+    -webkit-border-top-right-radius:0px !important;
+    -webkit-border-bottom-right-radius:0px !important;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 52px;
+    left: 0;
+    background-color: #2c3e50 !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+td span {
+    padding: 0px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+td a {
+    color:black;
+    text-decoration: none;
+}
+.sub-function a span{
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+}
+.sub-function {
+    padding:25px 15px;
+}
+.sub-function .select-count {
+    float: left;
+    padding: 10px 5px;
+}
+.sub-function .select-count .count-title {
+font-weight: 300;
+}
+.pagination {
+    position: relative;
+    left:323px;
+}
